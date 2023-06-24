@@ -1,0 +1,210 @@
+a{
+  text-decoration: none;
+}
+.home-content-wrap{
+    background-color: white;
+    padding: 5%;
+    padding-top: 4.6rem;
+    border-bottom-right-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+    box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+   box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+   */
+}
+
+.tag-box {
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+  color: #141414;
+  display: flex;
+  background-color: #3AAFA9;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tag-box h2 {
+  margin: 1rem 0;
+  font-size: 2.6rem;
+  line-height: 2.4rem;
+}
+
+.tag-box h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.tag-box p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.button-box {
+  margin: 1.5rem 0;
+  display: flex;
+  background-color: #17252A;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button-box button:hover{
+    cursor: pointer;
+}
+
+.button-box-temp {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0px;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.75rem;
+  color: black;
+  background-color: #c5eeec;
+  line-height: 1.75rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: "DM Sans", sans-serif;
+}
+
+.button-box-res {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.75rem;
+  border-color: #3AAFA9;
+  color: #141414;
+  background-color: #3AAFA9;
+  line-height: 1.75rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: "DM Sans", sans-serif;
+}
+
+.img-box {
+  width: 100%;
+  height: fit-content;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-box img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 0.75rem;
+}
+.step-box-container {
+  margin: 1.5rem 0;
+  width: 100%;
+  height: fit-content;
+  background-color: #17252A;
+  flex-direction: column;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.step-box-container h3{
+  font-size: 1.6rem;
+  color: white;
+  margin: 0;
+  padding: 0 1rem 1rem 1rem;
+}
+.step-box {
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 45.6px;
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: #c5eeec;
+  border-color: #17252A;
+}
+
+.step-box:hover {
+  height: fit-content;
+}
+
+.step-box-header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: #3AAFA9;
+  border-color: #17252A;
+  border: 0;
+}
+
+.step-box-header-heading {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 8px 0px 8px 8px;
+}
+
+.step-box-header-num {
+  background-color: #17252A;
+  border-color: #17252A;
+  color: white;
+  padding: 8px 15px;
+  font-size: 1.1rem;
+  border-radius: 1rem;
+  margin: 0;
+}
+.step-box p {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding: 0.8rem;
+  margin: 0;
+  font-weight: 400;
+  box-sizing: border-box;
+  transition: height 0.5s ease;
+}
+
+.step-box:hover p {
+  height: auto;
+}
+
+@media (min-width: 990px) {
+
+    .home-content-wrap{
+        
+    }
+    .second-box{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .first-box{
+        width: 40%;
+        margin-top: 1rem;
+        height: fit-content;
+    }
+    .tag-box{
+        margin-top: 0;
+    }
+
+    .img-box{
+        width: 60%;
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+    .step-box{
+        height: fit-content;
+    }
+    .step-box p {
+        height: auto;
+    }
+
+}

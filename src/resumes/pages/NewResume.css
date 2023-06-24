@@ -1,0 +1,19 @@
+.preview-content-wrap{
+    background-color: white;
+    padding: 5% 0;
+    padding-top: 4.6rem;
+    border-bottom-right-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+    box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+   box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+   */
+}
+.sample{
+    width: 850px;
+    height: 1248px;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
